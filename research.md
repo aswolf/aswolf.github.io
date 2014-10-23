@@ -11,6 +11,16 @@ I have also done work on determining the interior properties of extrasolar plane
 You can see a list of my publications [here](publications.html).
 Currently, I am working on three projects that I describe below in more detail.
 
+{% include box.html %}
+
+{% include markdown.html %}
+###Open Projects found at [github.com/aswolf]()
+In support of the goals of Open Science, to make research more accessible and reproducible (i.e. more scientific), I have begun posting many of my projects on my github site.
+
+####I encourage you to take a look and think about what you can do to make your science more open!
+{% include divclose.html %}
+{% include divclose.html %}
+
 ##Modeling Silicate Liquids at Mantle Conditions 
 Determining the evolution of the Earth's mantle since formation is a crucial topic to understanding its present state.
 This is particularly true given that temperature and composition are often highly degenerate in seismic observations of the mantle.

@@ -43,6 +43,12 @@
             <li><a href="publications.html">Publications</a></li>
             {% endif %}
 
+            {% if page.active == "courses" %}
+            <li class="selected"><a href="courses.html">Courses</a></li>
+            {% else %}
+            <li><a href="courses.html">Courses</a></li>
+            {% endif %}
+
             {% if page.active == "hobbies" %}
             <li class="selected"><a href="hobbies.html">Other Interests</a></li>
             {% else %}
