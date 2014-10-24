@@ -15,7 +15,7 @@ a:hover {color:#636a46; text-decoration:none; background-color:inherit;}
 a img {border:none;}
 p {padding:0 0 1.6em 0;}
 p form {margin-top:0; margin-bottom:20px;}
-img.left,img.center,img.right {padding:4px; border:1px solid #a0a0a0;}
+img.left,img.center,img.right {padding:4px; }
 img.left {float:left; margin:0 12px 5px 0;}
 img.center {display:block; margin:0 auto 5px auto;}
 img.right {float:right; margin:0 0 5px 12px;}
@@ -37,7 +37,8 @@ img.right {float:right; margin:0 0 5px 12px;}
 #content h2 a {font-weight:normal;}
 #content h3 {margin:0 0 5px 0; font-size:1.4em; letter-spacing:-1px;}
 #content a:hover,#subcontent a:hover {text-decoration:underline;}
-#content ul,#content ol {margin:0 5px 16px 35px;}
+#content ul,#content ol {margin:0 5px 16px 35px;list-style: outside disc; margin-left: 1em;}
+#content ul li {position: relative; left: 2em; padding-right: 2em;   }
 #content dl {margin:0 5px 10px 25px;}
 #content dt {font-weight:bold; margin-bottom:5px;}
 #content dd {margin:0 0 10px 15px;}
@@ -69,12 +70,16 @@ img.right {float:right; margin:0 0 5px 12px;}
 #footer a:hover {color:#444; text-decoration: underline;}
 
 /* Misc classes and styles */
-.splitcontentleft {float:left; width:58%;}
-.splitcontentright {float:right; width:38%;}
+.floatleft {float:left;margin-right: 10px;}
+.floatright {float:right;margin-left: 10px;}
+.caption {text-align:right; font-style: italic;}
+.splitleft {float:left; width:58%;}
+.splitright {float:right; width:38%;}
 .clear {clear:both;}
 .small {font-size:0.8em;}
 .hide {display:none;}
+.textfull{text-align: justify; text-justify: inter-word;}
 .textcenter {text-align:center;}
 .textright {text-align:right;}
 .important {color:#f02025; background-color:inherit; font-weight:bold;}
-.box {margin:0 0 20px 0; padding:10px; border:1px solid #636a46; background-color:#E1E3D4; color:#444; line-height:1.5em;}
+.box {margin-bottom:20px; padding:10px; border:1px solid #636a46; background-color:#E1E3D4; color:#444; line-height:1.5em;}
