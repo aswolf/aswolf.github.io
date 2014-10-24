@@ -6,10 +6,9 @@ active: research
 
 My research interests span a broad range of topics including planetary science, geochemistry, geophysics, and statistical analysis.
 In particular, the bulk of my work is focused on understanding the chemistry and thermodynamics of the Earth’s lower mantle.
-I approach this topic with a variety of techniques, including diamond anvil cell experiments, thermodynamic modeling of first principles calculations, and simplified planetary evolution modeling.
-I have also done work on determining the interior properties of extrasolar planets through their orbital evolution, as well as understanding near-shore bathymetry of lakes on Titan through careful statistical analysis of radar images.
-You can see a list of my publications [here](publications.html).
-Currently, I am working on three projects that I describe below in more detail.
+I approach this topic with a variety of techniques, including diamond anvil cell experiments, thermodynamic modeling of first principles calculations, and simplified atomic-scale modeling.
+I have also done work on determining the interior properties of extrasolar planets through their orbital evolution, as well as various applications of Bayesian statistical techniques toward understanding various fields in the geosciences.
+Below I describe a number of these research projects in more detail, and you can see a list of my publications [here](publications.html).
 
 <div class="box" markdown="1">
 ###Open Projects found at [github.com/aswolf](http://github.com/aswolf)
