@@ -52,7 +52,7 @@ I am currently applying this general model to a simplified chemical representati
 Iron-bearing magnesium silicate perovskite (recently named Bridgmanite) is thought to be the dominant mineral in the Earth's lower mantle, occupying ~80% by volume.
 This makes it one of the most crucial phases to understanding the structure and long-term evolution of the Earth.
 In this work, I set out to characterize the composition-dependent compression behavior of perovskite at realistic mantle conditions using laser-heated diamond anvil cell experiments.
-Synchrotron X-ray diffraction experiments were carried out at the Advanced Photon Source, measuring the high temperature compression curves for (Mg,Fe)SiO3 perovskite in a quasi-hydrostatic neon pressure medium for a range of iron compositions.
+Synchrotron X-ray diffraction experiments were carried out at the Advanced Photon Source, measuring the high temperature compression curves for (Mg,Fe)SiO<sub>3</sub> perovskite in a quasi-hydrostatic neon pressure medium for a range of iron compositions.
 The resulting powder diffraction profiles are then fit to obtain perovskite volumes as a function of pressure and temperature.
 From the extracted volumes, I construct high temperature equations of state for both Fe-bearing and Fe-free compositions, comparing with careful reanalysis of literature data.
 Using Bayesian statistical techniques that are robust to outliers in the dataset, we are able to show that the thermal expansion trends with temperature for perovskite (even in the absence of iron) are considerably higher than previously thought.
