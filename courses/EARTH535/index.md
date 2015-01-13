@@ -1,5 +1,5 @@
 ---
-layout:  EAR535
+layout:  EARTH535
 active: home
 ---
 MRM is a weekly reading group for faculty, postdocs, and students interested in the behavior of rocks, minerals, and melts throughout the Earth (and other planets). This provides an informal setting where we discuss papers from a broad range of topics including mineral physics, petrology, and geochemistry, in addition to occasional works from adjacent fields such as geophysics and planetary science.
