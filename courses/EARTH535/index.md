@@ -4,7 +4,7 @@ active: home
 ---
 MRM is a weekly reading group for faculty, postdocs, and students interested in the behavior of rocks, minerals, and melts throughout the Earth (and other planets). This provides an informal setting where we discuss papers from a broad range of topics including mineral physics, petrology, and geochemistry, in addition to occasional works from adjacent fields such as geophysics and planetary science.
 
-##Wednesdays 2-3 pm - Wilson Library (CCL 4510)
+##Fridays 1-2 pm - Wilson Library (CCL 4510)
 
 ###contact [Aaron Wolf]({{ site.baseurl }}/index.html) (aswolf_at_umich.edu)
 
