@@ -12,9 +12,9 @@ MRM is a weekly reading group for faculty, postdocs, and students interested in 
 <br>
 
 <div class="box" markdown="1">
-##Next week...
+##This week...
 
-###TBD
+##[Tucker and Mukhopadhyay (2014)](http://www.sciencedirect.com/science/article/pii/S0012821X1400137X)- **"Evidence for multiple magma ocean outgassing and atmospheric loss episodes from mantle noble gases"**
 </div>
 
 ##Description:
