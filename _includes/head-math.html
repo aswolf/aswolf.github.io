@@ -8,6 +8,9 @@
     <meta name="author" content="Your Name" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" title="andreas08" media="screen,projection" />
     <title>Aaron S. Wolf</title>
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
 </head>
 <body>
 
@@ -47,12 +50,6 @@
             <li class="selected"><a href="courses.html">Courses</a></li>
             {% else %}
             <li><a href="courses.html">Courses</a></li>
-            {% endif %}
-
-            {% if page.active == "resources" %}
-            <li class="selected"><a href="resources.html">Resources</a></li>
-            {% else %}
-            <li><a href="resources.html">Resources</a></li>
             {% endif %}
 
             {% if page.active == "hobbies" %}

@@ -61,7 +61,7 @@ Using Bayesian statistical techniques that are robust to outliers in the dataset
 <div class="clear"></div>
 
 
-##Unified Pressure Scales for Hi P-T Experiments
+##<a name="head:unbiased"></a> Unified Pressure Scales for Hi P-T Experiments
 <div class="floatright">
 <img src="images/unbiased_graphic.png" width="300">
 <div class="caption"> (modified from wikipedia) </div>
