@@ -1,5 +1,5 @@
 ---
-layout:  default-math
+layout:  default
 title: Math-Test
 active: hobbies
 ---
