@@ -1,7 +1,10 @@
 ---
 layout:  default
 title: Eos-Models
-active: resources
+date:   2015-05-27 
+active: notes
+categories: [notes]
+tags: [eos]
 ---
 
 ## General Thermodyanmic Properties

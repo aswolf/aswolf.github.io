@@ -10,7 +10,7 @@ active: resources
 
 ##Personal Projects
 * ####[github.com/aswolf](http://github.com/aswolf) - host of all my open software research projects
-* ####[aswolf.github.io/notebook]() - location my open lab notebook *(coming soon!)*
+* ####[aswolf.github.io/notes.html](notes.html) - location my open lab notebook
 
 ---
 
