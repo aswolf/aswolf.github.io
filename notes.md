@@ -7,7 +7,8 @@ title: Research Notes
 
 Welcome to my online research notebook. I intend to store a set of notes here useful for my own research and student mentoring. 
 
-The notes are organized by tags. **Click on a tag to jump down to a sorted list of relevant pages.** Since notes are continuously updated, the dates reflect the most recent modification.
+
+The notes are organized by tags. **Click on a tag to jump down to a sorted list of relevant pages.** 
 
 <ul class="tags">
 {% for tag in site.tags %}
@@ -15,6 +16,19 @@ The notes are organized by tags. **Click on a tag to jump down to a sorted list 
   <li><a href="/notes.html#{{t | downcase | replace:" ","-"}}">{{ t | downcase}}</a></li>
 {% endfor %}
 </ul>
+
+---
+
+Otherwise, here is **a complete list of all notes, sorted by date**. Since notes are continuously updated, the dates reflect the most recent modification.
+
+{% for post in site.posts %}
+  <li>
+    <span class="date">{{ post.date | date: "%Y-%m-%d"  }}</span>
+    <a href="{{ post.url }}">{{ post.title }}</a> -- {% for itag in post.tags %} <a class="tagvec" href="/notes.html#{{itag | downcase | replace:" ","-"}}">{{ itag | downcase}}</a> {% endfor %}
+  </li>
+{% endfor %}
+
+<p></p>
 
 ---
 
