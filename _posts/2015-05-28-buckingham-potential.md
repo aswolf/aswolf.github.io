@@ -3,8 +3,8 @@ layout:  default
 title: Buckingham Potential
 date:   2015-05-28 
 active: notes
-categories: [notes,atom-sim]
-tags: [md,potentials]
+categories: [notes]
+tags: [md,potentials,atom-sim]
 ---
 
 The Buckingham potential is a common choice, capable of representing a wide variety of materials:

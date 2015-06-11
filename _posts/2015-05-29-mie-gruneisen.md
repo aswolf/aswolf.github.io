@@ -3,7 +3,7 @@ layout:  default
 title: Mie-Grüneisen Equation of State
 date:   2015-05-29 
 active: notes
-categories: [notes,eos]
+categories: [notes]
 tags: [eos]
 ---
 

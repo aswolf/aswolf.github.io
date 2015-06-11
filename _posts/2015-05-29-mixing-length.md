@@ -3,7 +3,7 @@ layout:  default
 title: Mixing Length Theory
 date:   2015-05-28 
 active: notes
-categories: [notes,magma-ocean]
+categories: [notes]
 tags: [geodyn,magma-ocean]
 ---
 

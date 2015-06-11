@@ -3,7 +3,7 @@ layout:  default
 title: Local Conductive Mixing Length
 date:   2015-06-10 
 active: notes
-categories: [notes,magma-ocean]
+categories: [notes]
 tags: [geodyn,magma-ocean]
 ---
 ##Standard Approach

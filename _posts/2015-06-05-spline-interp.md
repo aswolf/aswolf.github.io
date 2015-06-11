@@ -1,9 +1,9 @@
 ---
 layout:  default
 title: Cubic Spline Interpolation
-date:   2015-08-05 
+date:   2015-06-05 
 active: notes
-categories: [notes,math]
+categories: [notes]
 tags: [math,numerics]
 ---
 We all like continuity. 
