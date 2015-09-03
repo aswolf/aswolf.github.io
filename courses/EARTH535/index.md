@@ -4,7 +4,7 @@ active: home
 ---
 MRM is a weekly reading group for faculty, postdocs, and students interested in the behavior of rocks, minerals, and melts throughout the Earth (and other planets). This provides an informal setting where we discuss papers from a broad range of topics including mineral physics, petrology, and geochemistry, in addition to occasional works from adjacent fields such as geophysics and planetary science.
 
-##Fridays 1-2 pm - Wilson Library (CCL 4510)
+##Wednesdays 1-2 pm - Wilson Library (CCL 4510)
 
 ###contact [Aaron Wolf]({{ site.baseurl }}/index.html) (aswolf_at_umich.edu)
 
@@ -14,7 +14,7 @@ MRM is a weekly reading group for faculty, postdocs, and students interested in 
 <div class="box" markdown="1">
 ##This week...
 
-##[Tucker and Mukhopadhyay (2014)](http://www.sciencedirect.com/science/article/pii/S0012821X1400137X)- **"Evidence for multiple magma ocean outgassing and atmospheric loss episodes from mantle noble gases"**
+##TBD
 </div>
 
 ##Description:
