@@ -55,6 +55,12 @@
             <li><a href="/resources.html">Resources</a></li>
             {% endif %}
 
+            {% if page.active == "data" %}
+            <li class="selected"><a href="/data.html">Data</a></li>
+            {% else %}
+            <li><a href="/data.html">Data</a></li>
+            {% endif %}
+
             {% if page.active == "notes" %}
             <li class="selected"><a href="/notes.html">Notes</a></li>
             {% else %}
