@@ -5,6 +5,8 @@ title: Research Notes
 
 ---
 
+**NOTE: This has been removed from the website. It is kept only for a record of the tag list functions.**
+
 Welcome to my online research notebook. I intend to store a set of notes here useful for my own research and student mentoring. 
 
 The notes are organized by tags. **Click on a tag to jump down to a sorted list of relevant pages.** 
