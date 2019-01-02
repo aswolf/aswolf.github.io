@@ -4,4 +4,5 @@ title: Publications
 active: pubs
 ---
 
-{% include asw-pub-inc.html %}
+<!-- {% include asw-pub-inc.html %} !-->
+{% include asw-pubs.pdf %}
