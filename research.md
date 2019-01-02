@@ -11,7 +11,7 @@ I have also done work on determining the interior properties of extrasolar plane
 Below I describe a number of these research projects in more detail, and you can see a list of my publications [here](publications.html).
 
 <div class="box" markdown="1">
-###Open Projects found at [github.com/aswolf](http://github.com/aswolf)
+### Open Projects found at [github.com/aswolf](http://github.com/aswolf)
 <div class="floatleft">
 <a href="https://github.com"><img src="images/GitHub_Logo.png"  width="100"></a>
 </div>
@@ -24,7 +24,7 @@ In support of the goals of Open Science, to make research more accessible and re
 </div>
 
 
-##Simplified Modeling of Silicate Liquids at Mantle Conditions 
+##Simplified Modeling of Silicate Liquids at Mantle Conditions
 <div class="floatright">
 <img src="images/cartoonCNEvo.png" width="300">
 </div>
@@ -156,4 +156,3 @@ As noted at the top of this page, I am making these tools freely available for p
 (*Part of this work helps to support an EAR/Geoinformatics grant with Przemek Dera and colleagues)*
 </div>
 <div class="clear"></div>
-
