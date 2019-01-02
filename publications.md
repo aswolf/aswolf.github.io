@@ -5,4 +5,5 @@ active: pubs
 ---
 
 <!-- {% include asw-pub-inc.html %} !-->
-{% include asw-pubs.pdf %}
+
+###[Click here to download my publication list](docs/asw-pubs.pdf) 
