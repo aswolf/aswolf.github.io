@@ -21,6 +21,5 @@ My research interests are broad, but focus mainly on understanding the thermodyn
 <p></p>
 
 <div class="box" markdown="1">
-####NOTE: the contents of this website are fully available for download and re-use as a template at its github repo found at [github.com/aswolf/aswolf.github.io](https://github.com/aswolf/aswolf.github.io).
+#### NOTE: the contents of this website are fully available for download and re-use as a template at its github repo found at [github.com/aswolf/aswolf.github.io](https://github.com/aswolf/aswolf.github.io).
 </div>
-

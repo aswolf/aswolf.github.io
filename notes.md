@@ -7,9 +7,9 @@ title: Research Notes
 
 **NOTE: This has been removed from the website. It is kept only for a record of the tag list functions.**
 
-Welcome to my online research notebook. I intend to store a set of notes here useful for my own research and student mentoring. 
+Welcome to my online research notebook. I intend to store a set of notes here useful for my own research and student mentoring.
 
-The notes are organized by tags. **Click on a tag to jump down to a sorted list of relevant pages.** 
+The notes are organized by tags. **Click on a tag to jump down to a sorted list of relevant pages.**
 
 <ul class="tags">
 {% for tag in site.tags %}
@@ -20,7 +20,7 @@ The notes are organized by tags. **Click on a tag to jump down to a sorted list 
 
 ---
 
-##Complete Notebook
+## Complete Notebook
 Otherwise, here is **a complete list of all notes, sorted by date**. Since notes are continuously updated, the dates reflect the most recent modification.
 
 {% for post in site.posts %}

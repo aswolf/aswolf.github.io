@@ -20,11 +20,11 @@ In support of the goals of Open Science, to make research more accessible and re
 
 <div class="clear"> </div>
 
-####I encourage you to take a look and think about what you can do to make your science more open!
+#### I encourage you to take a look and think about what you can do to make your science more open!
 </div>
 
 
-##Simplified Modeling of Silicate Liquids at Mantle Conditions
+## Simplified Modeling of Silicate Liquids at Mantle Conditions
 <div class="floatright">
 <img src="images/cartoonCNEvo.png" width="300">
 </div>
@@ -43,7 +43,7 @@ I am currently applying this general model to a simplified chemical representati
 <div class="clear"> </div>
 
 
-##High P-T Diamond Anvil Cell Experiments
+## High P-T Diamond Anvil Cell Experiments
 <div class="floatleft">
 <img src="images/dac_diamonds.jpg" width="300">
 <div class="caption"> (image from Steve Jacobsen) </div>
@@ -61,7 +61,7 @@ Using Bayesian statistical techniques that are robust to outliers in the dataset
 <div class="clear"></div>
 
 
-##<a name="head:unbiased"></a> Unified Pressure Scales for Hi P-T Experiments
+## <a name="head:unbiased"></a> Unified Pressure Scales for Hi P-T Experiments
 <div class="floatright">
 <img src="images/unbiased_graphic.png" width="300">
 <div class="caption"> (modified from wikipedia) </div>
@@ -78,7 +78,7 @@ As this is an entirely open project, meant to provide both models and easy acces
 <div class="clear"></div>
 
 
-##Modeling Atomic Ordering in Fe-bearing Perovskite from 1st Principles Calculations
+## Modeling Atomic Ordering in Fe-bearing Perovskite from 1st Principles Calculations
 <div class="floatleft">
 <img src="images/antique_checkerboard_sm.jpg" width="250">
 <div class="caption"> (from galleryhip.com) </div>
@@ -97,7 +97,7 @@ Eventually, we aim to combine this model with a similar model for ferropericlase
 <div class="clear"> </div>
 
 
-##Understanding the Thermodynamics of Melting in Highly Ionic Systems
+## Understanding the Thermodynamics of Melting in Highly Ionic Systems
 <div class="floatright">
 <img src="images/latticeVib.png" width="250">
 <div class="caption"> (from wikipedia) </div>
@@ -115,7 +115,7 @@ We are developing new ionic potentials for use in empirical molecular dynamics s
 <div class="clear"></div>
 
 
-##Bayesian Data Analysis Applications in Geosciences
+## Bayesian Data Analysis Applications in Geosciences
 Many scientific investigations require only a basic knowledge of statistics in order to obtain reasonable results.
 Unfortunately, all too often researchers will apply a simple statistical method when the data really requires more sophisticated techniques.
 Starting early on in graduate school, I began to collaborate with friends and colleagues to help provide the statistical know-how to carry out their investigations when the observation type, data quality, or system complexity ruled out standard simple approaches.
@@ -123,7 +123,7 @@ This has lead me to collaborations in a wide range of areas:
 
 <div class="floatleft">
 <div markdown="1" align="center">
-####Bayes' Theorem
+#### Bayes' Theorem
 </div>
 <img src="images/bayesHeader.jpg" width="180">
 <div class="caption"> (from wikipedia) </div>
@@ -140,7 +140,7 @@ These publications are some of the most fun because they represent tricky statis
 (*For more information on these projects, see my [publication](publication.html)*)
 
 
-##Developing Open Source Scientific Tools
+## Developing Open Source Scientific Tools
 <div class="floatright">
 <img src="images/Open_Science_Logo.jpg" width="150">
 <div class="caption"> (from wikipedia) </div>
