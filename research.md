@@ -97,23 +97,6 @@ Eventually, we aim to combine this model with a similar model for ferropericlase
 <div class="clear"> </div>
 
 
-## Understanding the Thermodynamics of Melting in Highly Ionic Systems
-<div class="floatright">
-<img src="images/latticeVib.png" width="250">
-<div class="caption"> (from wikipedia) </div>
-</div>
-<div class="textfull" markdown="1">
-Our knowledge of the thermodynamics of melting for geologic materials plays a very important role in our understanding of how rocks are created and processed in igneous and metamorphic settings, such as in within deep magma chambers or conduits.
-We are particularly interested in the pressure and composition dependence of the heat capacity, as it plays a large role in determining the degree of partial melt and the rate of cooling in crustal magmas.
-In order to study these properties in the lab, we must be able to take measurements (such as sound speeds) on molten rock at a range of pressures and compositions.
-These experiments are extremely challenging and can often lead to as many further questions as they solve.
-Recent work done here at Rebecca Lange's lab indicates that a broad range of carbonate minerals show a paradoxical behavior where the heat capacities show clear drops upon melting, opposite the typical behavior for most geologic materials.
-Most minerals gain so much configurational entropy upon melting, as atoms break free from the crystal lattice, that the melt experiences a large jump in heat capacity relative to the solid.
-We are developing new ionic potentials for use in empirical molecular dynamics simulations to explore on an atomic level how configurational and vibrational entropy responds to melting for these materials.
-(*I am working on this project with University of Michigan graduate student Sean Hurt, as a theoretical compliment to his other experimental Ph.D. work.*)
-</div>
-<div class="clear"></div>
-
 
 ## Bayesian Data Analysis Applications in Geosciences
 Many scientific investigations require only a basic knowledge of statistics in order to obtain reasonable results.
