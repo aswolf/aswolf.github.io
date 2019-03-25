@@ -13,4 +13,5 @@ github_username:  aswolf
 # NOTE MUST BE KRAMDOWN for markdown blocks within html
 markdown: kramdown
 pygments: true
+highlighter: rouge
 permalink:  /:categories/:title.html
