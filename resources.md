@@ -9,8 +9,8 @@ active: resources
 ---
 
 ## Personal Projects
-* #### [github.com/aswolf](http://github.com/aswolf) - host of all my open software research projects
-* #### [aswolf.github.io/notes.html](notes.html) - location my open lab notebook
+* #### [ENKI-portal](http://enki-portal.org) - ENKI is a collaborative, model-configuration and testing portal for tools in computational thermodynamics and fluid dynamics.
+* #### [github.com/aswolf](http://github.com/aswolf) - host of some of my open software research projects
 
 ---
 

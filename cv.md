@@ -1,10 +1,7 @@
 ---
 layout:  default
 active: cv
+title: CV
 ---
 
-### [(click here to download the pdf version)](docs/asw-cv.pdf)
-
-{% include newpar.html %}
-
-{% include asw-cv-inc.html %}
+## [Click here to download the pdf version](docs/asw-cv.pdf)
