@@ -4,3 +4,6 @@ _site
 # vim temp files
 *.swp
 *.swo
+
+*.DS_STORE
+*.DS_Store
