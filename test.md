@@ -3,7 +3,10 @@ layout: default
 title: Test-latex-docs
 active: data
 ---
-{% include mathjax.html %}
+
+{% include javascript.html %}
+
+## Updated
 
 The equilibrium affinity condition relative to the externally imposed chemical potential is:
 $$

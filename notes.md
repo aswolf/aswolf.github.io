@@ -4,6 +4,7 @@ active: notes
 title: Research Notes
 
 ---
+{% include mathjax.html %}
 
 **NOTE: This has been removed from the website. It is kept only for a record of the tag list functions.**
 
