@@ -10,8 +10,10 @@ usemathjax: true
 
 The equilibrium affinity condition relative to the externally imposed chemical potential is:
 
-$$
-\phi_i \equiv \Delta \hat{\mu}_i - \mu^\mathrm{xs}_i = A + RTm\log X_i
-$$
+$$ \phi_i \equiv \Delta \hat{\mu}_i - \mu^\mathrm{xs}_i = A + RTm\log X_i $$
+
+$$ E = mc^2 $$
+
+Test inline $E=mc^2$ sucess?
 
 where $A$ is the saturation affinity of the phase relative to the imposed chemical potential, and $m$ is the site multiplicity such that $RTm \log X_i$ provides the ideal mixing entropy contribution to the Gibbs energy.
