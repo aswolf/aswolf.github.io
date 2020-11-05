@@ -61,6 +61,13 @@
             <li><a href="/data.html">Data</a></li>
             {% endif %}
 
+            {% if page.active == "lab-book" %}
+            <li class="selected"><a href="/lab-book.html">Lab-Book</a></li>
+            {% else %}
+            <li><a href="/lab-book.html">Lab-Book</a></li>
+            {% endif %}
+
+
             {% if page.active == "hobbies" %}
             <li class="selected"><a href="/hobbies.html">Other Interests</a></li>
             {% else %}
