@@ -12,16 +12,16 @@ Providing a public view of scientific research work has numerous advantages:
 * Getting feedback on work in progress
 
 <div class="box" markdown="1">
-## Next Posting *(Due: 11/05/2020)*
-* **Calculating phase composition with the Metastable eXchange EQuilibrium ALgorithm (MEXQAL)**
+## Next Posting *(Due: 11/12/2020)*
+* **To Be Determined**
 
 ## Latest Posting
-* **TO BE POSTED:**
+* [**Calculating phase composition with the Metastable eXchange EQuilibrium ALgorithm (MEXQAL)**](lab-book/2020-11-05-MEXQAL.html)
 
 </div>
 
 ## Past Entries
-* TO BE POSTED
+* [*2020-11-05:* **Calculating phase composition with the Metastable eXchange EQuilibrium ALgorithm (MEXQAL)**](lab-book/2020-11-05-MEXQAL.html)
 
 
 
