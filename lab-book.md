@@ -13,7 +13,7 @@ Providing a public view of scientific research work has numerous advantages:
 
 <div class="box" markdown="1">
 ## Next Posting *(Due: 11/12/2020)*
-* **To Be Determined**
+* **Benchmarking MEXQAL method for geologically-relevant phases**
 
 ## Latest Posting
 * [**Calculating phase composition with the Metastable eXchange EQuilibrium ALgorithm (MEXQAL)**](lab-book/2020-11-05-MEXQAL.html)
