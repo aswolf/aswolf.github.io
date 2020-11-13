@@ -2,18 +2,18 @@
 layout: post
 title: Benchmarking MEXQAL method for geologically-relevant phases
 active: lab-book
+author: Aaron S. Wolf
+date: 2020-11-12
+prev:
+  post: 2020-11-05-MEXQAL
+  title: Calculating phase composition with the Metastable eXchange EQuilibrium ALgorithm (MEXQAL)
+next:
+key-points:
+  - Typical igneous phases (liquid, Clinopyroxene, Feldspar, and Spinel) are used to test the MEXQAL method
+  - Realistic compositions are determined using batch crystallization of primitive MORB liquid
+  - Tests for all phases show excellent convergence to the correct compositions using the MEXQAL method
+  - Only clinopyroxene shows some deviation (at the 10 J affinity level) that needs further exploration
 ---
-
-
-<div class="box" markdown="1">
-## Key Points
-
-* Typical igneous phases (liquid, Clinopyroxene, Feldspar, and Spinel) are used to test the MEXQAL method
-* Realistic compositions are determined using batch crystallization of primitive MORB liquid
-* Tests for all phases show excellent convergence to the correct compositions using the MEXQAL method
-* Only clinopyroxene shows some deviation (at the 10 J affinity level) that needs further exploration
-</div>
-
 
 ## Testing MEXQAL on geologically-relevant phases
 To demonstrate its general power and utitlity, we test the MEXQAL method for determining saturation affinities and compositions on a variety of geologically-relevant phases.

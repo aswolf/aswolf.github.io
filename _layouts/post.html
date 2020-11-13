@@ -5,8 +5,34 @@ layout: default
 
   <header class="post-header">
       <!--<h1 class="post-title">{{ page.title }}</h1>-->
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <class="post-meta">
+          <hr style="width:40%">
+          <h4> Related Posts: </h4>
+          <h4> {% if page.prev %}
+                &nbsp;&nbsp;&nbsp; •<em> Previous: </em>
+                <a href="{{ page.prev.post }}.html">
+                      {{page.prev.title}}</a>
+                {% endif %}</h4>
+          <h4> {% if page.next %}
+                &nbsp;&nbsp;&nbsp; •<em> Next: </em>
+                <a href="{{ page.next.post }}.html">
+                      {{ page.next.title }}</a>
+                {% endif %}</h4>
+          {% if page.meta %} {{ page.meta }}{% endif %}
+    </class>
   </header>
+
+  <br>
+
+  <div class="box" markdown="1">
+        <h2>Key Points</h2>
+        <ul>
+        {% for pt in page.key-points %}
+          <li> {{ pt }} </li>
+          {% endfor %}
+        </ul>
+ </div>
+
 
   <article class="post-content">
     {{ content }}

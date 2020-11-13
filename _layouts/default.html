@@ -1,6 +1,10 @@
 {% include head.html %}
 
     <h1>{{ page.title }}</h1>
+    <h2>{% if page.author %} &nbsp;&nbsp;&nbsp;&nbsp;{{ page.author }}{% endif %}
+          {% if page.date %}
+          <span style="font-weight:normal"> &nbsp;({{ page.date | date: "%b %-d, %Y" }})</span>{% endif %}
+    </h2>
     <p></p>
 
     {{ content }}
