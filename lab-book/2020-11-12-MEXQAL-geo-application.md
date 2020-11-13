@@ -16,7 +16,7 @@ key-points:
 ---
 
 ## Testing MEXQAL on geologically-relevant phases
-To demonstrate its general power and utitlity, we test the MEXQAL method for determining saturation affinities and compositions on a variety of geologically-relevant phases.
+To demonstrate its general power and utility, we test the MEXQAL method for determining saturation affinities and compositions on a variety of geologically-relevant phases.
 These phases span the range from small simple regular solution models (like ternary feldspar) up to large reciprocal solutions with multiple ordering parameters (like spinel).
 Typical igneous phases that we selected for testing are presented here---roughly in order of increasing complexity:
 
@@ -28,57 +28,26 @@ Typical igneous phases that we selected for testing are presented here---roughly
 For each of these phases, we perform a challenging set of tests utilizing geologically-realistic phase compositions.
 To sample a region of composition space that is important for geological processes, we simulate near-complete (~95%) batch crystallization of MORB-composition liquid at 1300 K and 1 kbar, relatively close to the solidus.
 The resulting simulated phase compositions represent realistic compositions for all of the simulated phases, and provide a good indication of expected performance during typical theoretical geochemistry simulations.
-The simulated compositions used for this study are given in the tables below:
+The simulated compositions used for this study are given in the table below:
 
-### Primitive MORB Liquid
+### Primitive MORB Liquid & Crystallized Mineral Phases
 
-|Oxide | wt% |
-|--|--|
-|SiO2    |  48.68|
-|TiO2    |   1.01|
-|Al2O3   |  17.64|
-|Fe2O3   |   0.89|
-|Cr2O3   |   0.0425|
-|FeO     |   7.59|
-|MgO     |   9.1|
-|CaO     |  12.45|
-|Na2O    |   2.65|
-|K2O     |   0.03|
-|P2O5    |   0.08|
-|H2O     |   0.2|
+| Oxide       |  wt% | Endmember |mol%| Endmember      | mol% |
+|-------------|:----:|:----------:|:-:|:-----------------:|:-:|
+| **Liquid**        || **Feldspar**  || **Clinopyroxene**    ||
+| SiO$_2$     |48.68 | albite   |34.98| diopside         |45.2|
+| TiO$_2$     | 1.01 | anorthite|64.88| clinoenstatite   |17.1|
+| Al$_2$O$_3$ |17.64 | sanidine | 0.14| hedenbergite     |23.7|
+| Fe$_2$O$_3$ | 0.89 |   ---         || Al-buffonite     | 8.0|
+| Cr$_2$O$_3$ |0.0425| **Spinel**    || buffonite        |-1.1|
+| FeO         | 7.59 | chromite | 2.3 | essenite         | 4.9|
+| MgO         | 9.1  | hercynite|-30.1| jadeite          | 2.2|
+| CaO         |12.45 | magnetite| 24.9|
+| Na$_2$O     | 2.65 | spinel   | 36.3|
+| K$_2$O      | 0.03 | ulvospinel|66.6|
+| P$_2$O$_5$  | 0.08 |
+| H$_2$O      | 0.2  |
 
-
-### Feldspar
-
-|Endmember | mol% |
-|--|--|
-|albite    |0.3498|
-|anorthite |0.6488|
-|sanidine  |0.0014|
-
-
-### Clinopyroxene
-
-|Endmember | mol% |
-|--|--|
-|diopside            |  45.2   |
-|clinoenstatite      |  17.1   |
-|hedenbergite        |  23.7   |
-|alumino-buffonite   | 8.0    |
-|buffonite           | -1.1    |
-|essenite            | 4.9    |
-|jadeite             | 2.2   |
-
-
-### Spinel
-
-|Endmember | mol% |
-|--|--|
-|chromite           | 2.3|
-|hercynite          | -30.1|
-|magnetite          |24.9|
-|spinel             | 36.3|
-|ulvospinel         |66.6|
 
 It is important to note that not all of these components are strictly positive.
 This arises as a simple consequence of multiple crystallographic sites for mixing, which causes non-positive components to be required in order to represent all possible solution phase compositions.
@@ -90,13 +59,13 @@ This complication actually leads directly into an important nuanced point about 
 
 One of the critical nuances not fully appreciated previously is that the MEXQAL method requires that all calculations be performed in dependent species space.
 This arises because the equilibrium affinity condition applies an ideal mixing correction to the saturation affinity to best match the estimated chemical potential offsets $\phi_i$.
-The entropic mixing term is of the familiar form $RTm \log X_i$, and thus implicitly assumes that the components are all positive and bounded between 0 and 1.
+The entropic mixing term has the familiar form of $RTm \log X_i$, and thus implicitly assumes that the components are all positive and bounded between 0 and 1.
 No complications ever arise from this assumption for simple solutions, like the MELTS liquid phase or the Feldspars, because their solution endmembers are independent and fully span the physically realizable composition space.
 
 More complex solutions involving multi-site coupled-substitution, however, like for the clinopyroxenes or spinels, require the ability to describe compositions involving negative amounts of some components.
 These negative quantities are necessary to represent all possible dependent species for the solution phase.
 A simple and straightforward fix for this problem is to simply transpose it into the larger dependent species space, rather than the original independent endmember component space.
-The full set of dependent species for any solution phase has the important property that any physically meaningful composition can be represented as a postive combination of the dependent species, reflecting the fact that they fully span the relevant composition space.
+The full set of dependent species for any solution phase has the important property that any physically meaningful composition can be represented as a positive combination of the dependent species, reflecting the fact that they fully span the relevant composition space.
 By making this change, we guarantee that the fractions of each dependent species are always positive and we can make use of all of the same mathematical architecture developed for simpler solutions.
 This strategy for handling complex reciprocal solution phases is likewise discussed in the original @Ghiorso2013 paper, and we follow the same procedure outlined there.
 
