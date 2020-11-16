@@ -11,6 +11,7 @@ next:
 key-points:
   - Typical igneous phases (liquid, Clinopyroxene, Feldspar, and Spinel) are used to test the MEXQAL method
   - Realistic compositions are determined using batch crystallization of primitive MORB liquid
+  - Complex solutions with multi-site mixing require negative components to reach all of composition space; MEXQAL thus needs to work with dependent species (rather than independent components) to ensure all positive compositional variables, enabling usage of ideal mixing correction ($RTm*logX_i$) 
   - Tests for all phases show excellent convergence to the correct compositions using the MEXQAL method
   - Only clinopyroxene shows some deviation (at the 10 J affinity level) that needs further exploration
 ---
@@ -22,8 +23,8 @@ Typical igneous phases that we selected for testing are presented here---roughly
 
 * **Feldspar**: regular ternary solution
 * **Silicate Liquid**: regular 14-component solution
-* **Clinopyroxene**: ordered solution with 7-components \& 2 ordering parameters
-* **Spinel**: complex ordered solution with 5-components \& 4 ordering parameters
+* **Clinopyroxene**: ordered solution with 7-components & 2 ordering parameters
+* **Spinel**: complex ordered solution with 5-components & 4 ordering parameters
 
 For each of these phases, we perform a challenging set of tests utilizing geologically-realistic phase compositions.
 To sample a region of composition space that is important for geological processes, we simulate near-complete (~95%) batch crystallization of MORB-composition liquid at 1300 K and 1 kbar, relatively close to the solidus.
