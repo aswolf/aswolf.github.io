@@ -16,7 +16,7 @@ Providing a public view of scientific research work has numerous advantages:
 * [**Benchmarking MEXQAL method for geologically-relevant phases**](lab-book/2020-11-12-MEXQAL-geo-application.html)
 
 ## Next Posting *(Due: 11/19/2020)*
-* TBD
+* **Least-squares-optimized MEXQAL calculations for geo-phases**
 </div>
 
 ## Past Entries
