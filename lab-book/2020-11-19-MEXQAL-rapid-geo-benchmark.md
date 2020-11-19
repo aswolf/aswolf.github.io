@@ -10,9 +10,10 @@ prev:
 next:
 key-points:
   - Exchange equilibrium conditions can be found approximately by transforming to log-composition space; this yields a set of coupled linear equations, with $\Delta \log X_i$ and $A$ as unknowns, that can be solved using least squares.
-  - Working in log-composition space, it is crucial that compositional adjustments are rather small (<0.1), otherwise the accuracy of the normalized composition equation suffers.
-  - For complex phases, the gibbs curvature matrix must be remapped to dependent species space, producing a larger square matrix that describes how chemical potentials change with changes in species abundances; this operation relies only on the known stoichiometry of each species.
-  - Testing on igneous phases under realistic magmatic conditions reveals excellent improved performance for simple phases like liquid and feldspar, but only modest gains for complex phases like spinel and clinopyroxene; the added computational cost of the least squares approach could be easily minimized by accepting the direct compositional update in each iteration if it exceeds a threshold value.
+  - Fractional composition adjustments must be rather small (<0.1), otherwise the accuracy of the approximate normalized composition equation suffers.
+  - For complex phases, the Gibbs curvature matrix must be remapped to dependent species space, inflating the matrix to describe how species' chemical potentials change with species abundances; this operation relies only on the known stoichiometry of each species.
+  - Testing of igneous phases under realistic magmatic conditions reveals excellent performance for simple phases like liquid and feldspar, but only modest gains for complex phases like spinel and clinopyroxene.
+  - Added computational cost of the least squares approach could be avoided for most early iterations by accepting direct compositional update if any components exceed a threshold value.
 ---
 
 ## Rapid convergence using least squares
