@@ -12,14 +12,15 @@ Providing a public view of scientific research work has numerous advantages:
 * Getting feedback on work in progress
 
 <div class="box" markdown="1">
-## Latest Posting *(11/12/2020)*
-* [**Benchmarking MEXQAL method for geologically-relevant phases**](lab-book/2020-11-12-MEXQAL-geo-application.html)
+## Latest Posting *(11/19/2020)*
+* [**Least-squares-optimized MEXQAL calculations for geo-phases**](lab-book/2020-11-19-MEXQAL-rapid-geo-benchmark.html)
 
-## Next Posting *(Due: 11/19/2020)*
-* **Least-squares-optimized MEXQAL calculations for geo-phases**
+## Next Posting *(Due: 11/26/2020)*
+* **TBD**
 </div>
 
 ## Past Entries
+* [*2020-11-19* **Least-squares-optimized MEXQAL calculations for geo-phases**](lab-book/2020-11-19-MEXQAL-rapid-geo-benchmark.html)
 * [*2020-11-12:* **Benchmarking MEXQAL method for geologically-relevant phases**](lab-book/2020-11-12-MEXQAL-geo-application.html)
 * [*2020-11-05:* **Calculating phase composition with the Metastable eXchange EQuilibrium ALgorithm (MEXQAL)**](lab-book/2020-11-05-MEXQAL.html)
 

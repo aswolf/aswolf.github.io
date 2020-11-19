@@ -8,10 +8,12 @@ prev:
   post: 2020-11-05-MEXQAL
   title: Calculating phase composition with the Metastable eXchange EQuilibrium ALgorithm (MEXQAL)
 next:
+  post: 2020-11-19-MEXQAL-rapid-geo-benchmark
+  title: Least-squares-optimized MEXQAL calculations for geo-phases
 key-points:
   - Typical igneous phases (liquid, Clinopyroxene, Feldspar, and Spinel) are used to test the MEXQAL method
   - Realistic compositions are determined using batch crystallization of primitive MORB liquid
-  - Complex solutions with multi-site mixing require negative components to reach all of composition space; MEXQAL thus needs to work with dependent species (rather than independent components) to ensure all positive compositional variables, enabling usage of ideal mixing correction ($RTm*logX_i$) 
+  - Complex solutions with multi-site mixing require negative components to reach all of composition space; MEXQAL thus needs to work with dependent species (rather than independent components) to ensure all positive compositional variables, enabling usage of ideal mixing correction ($RTm*logX_i$)
   - Tests for all phases show excellent convergence to the correct compositions using the MEXQAL method
   - Only clinopyroxene shows some deviation (at the 10 J affinity level) that needs further exploration
 ---
