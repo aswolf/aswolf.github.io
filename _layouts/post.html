@@ -23,6 +23,31 @@ layout: default
 
   <br>
 
+  {% if page.background %}
+  <div class="box" markdown="1">
+        <h2>Background/Context</h2>
+        <b> <em>{{ page.background }} </em> </b>
+
+        <!-- <hr></hr>
+        <class="post-meta">
+            <h4> Related Posts: </h4>
+            <h4> {% if page.prev %}
+                  &nbsp;&nbsp;&nbsp; •<em> Previous: </em>
+                  <a href="{{ page.prev.post }}.html">
+                        {{page.prev.title}}</a>
+                        {% endif %}</h4>
+            <h4> {% if page.next %}
+                  &nbsp;&nbsp;&nbsp; •<em> Next: </em>
+                  <a href="{{ page.next.post }}.html">
+                        {{ page.next.title }}</a>
+                        {% endif %}</h4>
+            {% if page.meta %} {{ page.meta }}{% endif %}
+          </class> -->
+
+
+ </div>
+ {% endif %}
+
   <div class="box" markdown="1">
         <h2>Key Points</h2>
         <ul>
@@ -36,5 +61,13 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article>
+
+  {% if page.future-work %}
+  <div class="box" markdown="1">
+        <h2>Upcoming Discussions</h2>
+        <b> <em>{{ page.future-work }} </em> </b>
+ </div>
+ {% endif %}
+
 
 </div>
