@@ -43,7 +43,7 @@ where $\mu_i$ is the chemical potential vector for the phase in question, $\hat{
 (Note that this expression holds for all components, all values of $i$.)
 The fact that the chemical potential plane of every phase lies parallel to---though possibly vertically offset from---the chemical potential plane of the system reflects that the phase is in metastable exchange equilibrium with the system as a whole.
 It is for this reason that, at equilibrium, every phase has a single saturation affinity that is component-independent.
-Additionally, the negative sign convention reflects the fact that under-saturated phases, which lie above the chemical potential plane of the system (with positive excess gibbs energy) are taken to have negative affinities.
+Additionally, the negative sign convention reflects the fact that under-saturated phases, which lie above the chemical potential plane of the system (with positive excess Gibbs energy) are taken to have negative affinities.
 Using the standard convention, only reactions with positive affinities are allowed to progress forward and drive the system toward equilibrium.
 
 
@@ -53,15 +53,15 @@ Using the standard convention, only reactions with positive affinities are allow
 The chemical potential of each phase with respect to its endmembers is the most important quantity in all of chemical thermodynamics, since it is responsible for establishing and maintaining chemical equilibrium.
 The condition of chemical equilibrium is that all phases in equilibrium must maintain equality of chemical potentials.
 A typical approach to imposing this condition is to linearly map the endmember chemical potentials for a particular phase onto a common component basis set (like the elements or oxides).
-Due to the linearity of chemical potentials, the equilibrium phase assemblage linearly (and uniquely) determines the chemical potentials of the oxides (or elements):
+Due to the linearity of chemical potentials, the equilibrium phase assemblage linearly (and uniquely) determines the chemical potentials of the system components (e.g. oxides or elements):
 <!-- TK: Switch from ox to 'c' for generic system components!!! -->
 
 $$
-\nu_{\phi}^{ox} \cdot \mu^{ox} = \mu^{end}_{\phi}
+\nu_{\phi}^{c} \cdot \mu^{c} = \mu^{end}_{\phi}
 $$
 
-where $\mu^{ox}$ and $\mu_{\phi}^{end}$ are the chemical potentials of the oxides and the endmembers for phase $\phi$, and $\nu_{\phi}^{ox}$ is the stoichiometry matrix for the endmembers of phase $\phi$ in terms of the oxides.
-If the phase of interest is an omnicomponent phase, then this expression provides a complete set of linear equations (i.e. the stoichiometry matrix is square), and the chemical potentials of the system (in terms of elements or oxides) can be determined from the phase chemical potentials using the inverse stoichiometry matrix ($\nu_{\phi}^{ox} = [\mu^{ox}]^{-1} \cdot \mu^{end}_{\phi}$).
+where $\mu_{sys}^{c}$ and $\mu_{\phi}^{end}$ are the chemical potentials of the system components and the endmembers for phase $\phi$, and $\nu_{\phi}^{c}$ is the stoichiometry matrix for the endmembers of phase $\phi$ in terms of system components.
+If the phase of interest is an omnicomponent phase, then this expression provides a complete set of linear equations (i.e. the stoichiometry matrix is square), and the chemical potentials of the system can be determined from the phase chemical potentials using the inverse stoichiometry matrix ($\nu_{\phi}^{c} = [\mu_{sys}^{c}]^{-1} \cdot \mu^{end}_{\phi}$).
 In the general case, the complete set of phases in the assemblage must be combined to infer the chemical potentials of the system.
 
 
