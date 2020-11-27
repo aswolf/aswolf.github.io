@@ -3,7 +3,7 @@ layout: post
 title: Imposing subsolidus phase saturation constraints
 active: lab-book
 author: Aaron S. Wolf
-date: 2020-25-19
+date: 2020-11-25
 prev:
   post: 2020-11-05-MEXQAL
   title: Calculating phase composition with the Metastable eXchange EQuilibrium ALgorithm (MEXQAL)
@@ -104,7 +104,7 @@ where $\mu_{sys}^c$ is the system chemical potential expressed in system compone
 The implied chemical potentials of the system consistent with this phase assemblage is then determined by solving this system of linear equations.
 For purely equilibrium theoretical modeling, this expression has an exact solution, but typical applications involving experiments must rely upon linear least squares to obtain the optimal solution, averaging over measurement and model uncertainties.
 
-# Using subsolidus phase assemblages as a 'lookup' table of chemical potential constraints
+# Using subsolidus phase assemblages as a 'lookup' for chemical potential constraints
 <!-- # [[202011250619]] Subsolidus phase assemblages as 'lookup' model constraints -->
 
 In cases where an omnicomponent phase does not exist, as in most subsolidus phase assemblages, the chemical potentials of the system can be inferred directly from the equilibrium assemblage.

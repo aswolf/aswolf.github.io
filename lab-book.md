@@ -16,7 +16,8 @@ Providing a public view of scientific research work has numerous advantages:
 * [**Imposing subsolidus phase saturation constraints**](lab-book/2020-11-25-subsolidus-saturation-constraints.html)
 
 ## Next Posting *(Due: 12/03/2020)*
-* **TBD**
+* **Robust speed-optimized composition/affinity determinations for geo-phases**
+<!-- (lab-book/2020-12-03-optimized-geo-phase-affinities.html) -->
 </div>
 
 ## Past Entries
