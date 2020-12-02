@@ -25,6 +25,3 @@ Providing a public view of scientific research work has numerous advantages:
 * [*2020-11-19:* **Least-squares-optimized MEXQAL calculations for geo-phases**](lab-book/2020-11-19-MEXQAL-rapid-geo-benchmark.html)
 * [*2020-11-12:* **Benchmarking MEXQAL method for geologically-relevant phases**](lab-book/2020-11-12-MEXQAL-geo-application.html)
 * [*2020-11-05:* **Calculating phase composition with the Metastable eXchange EQuilibrium ALgorithm (MEXQAL)**](lab-book/2020-11-05-MEXQAL.html)
-
-
----

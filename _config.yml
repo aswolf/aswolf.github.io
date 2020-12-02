@@ -2,7 +2,7 @@
 title: Aaron S. Wolf's homepage
 email: aswolf@umich.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Aaron S. Wolf is a Turner Postdoctoral Scholar in the Earth and Environmental
+  Aaron S. Wolf is an Assistant Research Scientist in the Earth and Environmental
   Sciences Department at the University of Michigan. This is his homepage.
 baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
@@ -15,3 +15,4 @@ markdown: kramdown
 pygments: true
 highlighter: rouge
 permalink:  /:categories/:title.html
+plugins: ['jekyll/scholar']
