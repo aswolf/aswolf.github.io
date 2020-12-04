@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Aaron S. Wolf" />
+  <meta name="dcterms.date" content="2020-12-03" />
+  <title>Robust speed-optimized composition/affinity determinations for geo-phases</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Robust speed-optimized composition/affinity determinations for geo-phases</h1>
+<p class="author">Aaron S. Wolf</p>
+<p class="date">2020-12-03</p>
+</header>
+<h1 id="key-role-of-compositional-perturbation-models">Key role of compositional perturbation models</h1>
+<ul>
+<li>establish why perturbation models aid convergence</li>
+<li>mention compositional variability in phases needed to cover</li>
+<li>outline existing (linear) baseline models for approximating chemical potentials (linear in composition, or linear in log-transformed composition)</li>
+<li>set metrics for compositional extrapolation accuracy</li>
+</ul>
+<h1 id="local-regular-solution-approximation-overview">Local regular solution approximation overview</h1>
+<!-- # [[202011300948]] Local regular solution approximation overview -->
+<p>While regular solution models [[202011290633]] scan be quite useful, their simplicity limits their applicability to complex ordered phases. Nevertheless, the ability of the regular solution to capture ideal mixing and roughly represent (in many situations) non-ideal excess interactions makes it attractive for calculations considering local perturbations. We therefore construct the local regular solution approximation, which relies on evaluating the chemical potentials and Gibbs curvature matrix at a reference state. Excess solution properties are extracted from this matrix by subtracting off for expected contributions from an ideal solution [[202012010818]]. The chemical potential and Gibbs curvature contributions of the regular solution are fortunately linear in the excess mixing parameters <span class="math inline">\(W_{ij}\)</span>, enabling linear least-squares inference of their appropriate values [[<em>TK</em>]]. This approach yields a well-behaved perturbation model whose composition-dependence captures the dominant logarithmic and linear terms. When applied to complex multi-site solution phases, this approximation must be carried out in the augmented dependent-species space (rather than simple independent components) to retain meaningful ideal mixing terms [[<em>TK</em>]].</p>
+<h1 id="classic-regular-solution">Classic Regular Solution</h1>
+<ul>
+<li>provide expressions for Gibbs energy and derivs</li>
+<li>emphasize computational simplicity of expressions, allowing rapid calcuations</li>
+</ul>
+<h1 id="inferring-local-regular-solution-params-by-least-squares">[[202012030549]] Inferring local regular solution params by least-squares</h1>
+<p>A local regular solution [[202011300948]] provides a valuable approximation tool for computational applications. Training its parameter values is both easy and computationally efficient using standard least-squares inference. The first step is simply to calculate the excess Gibbs curvature matrix for the reference composition (<span class="math inline">\(X_k\)</span>): <span class="math display">\[
+\left(\frac{d \mu_i}{d n_j}\right)^{xs} \equiv \frac{d \mu_i}{d n_j} - \left(\frac{d \mu_i}{d n_j}\right)^{ideal}
+\]</span> where <span class="math inline">\(d \mu_i/d n_j\)</span> and <span class="math inline">\((d \mu_i/d n_j)^{ideal}\)</span> are the local Gibbs curvature and its ideal contribution [[202012010810]]. This curvature excess is linearly related to the unknown regular solution parameters (<span class="math inline">\(W_{ij}\)</span>): <span class="math display">\[
+\left(\frac{d \mu_i}{d n_j}\right)^{xs} = (W_{ij} + W_{ji})/2 - \sum_k X_k (W_{ik}+W_{ki})/2
+\]</span> where this expression has been modified from its standard form to enforce the required symmetry of the quadratic energy excess properties of the regular solution.</p>
+<figure>
+<img src="images/202012030654-local-reg-soln-constr-matrix.png" id="fig:Wij-constr" style="width:50.0%" alt="Figure: Constraint (design) matrix for least-squares inference of local regular solution parameters W_{ij}. Weighting coefficients range from +1 (dark red) to 0 (white) to -1 (dark blue)." /><figcaption aria-hidden="true"><strong>Figure</strong>: Constraint (design) matrix for least-squares inference of local regular solution parameters <span class="math inline">\(W_{ij}\)</span>. Weighting coefficients range from +1 (dark red) to 0 (white) to -1 (dark blue).</figcaption>
+</figure>
+<p>The unknown energy excess parameters can now be determined by standard least-squares methods by unraveling the constraint and unknown parameter matrices to fit the standard least-squares form (<span class="math inline">\(A x = b\)</span>). The result is a block diagonal constraint (or design) matrix (visualized in the figure) which imposes the direct dependence of each curvature value on its corresponding W parameter (dark red values), modified by weighted compositional adjustments falling off the diagonal (light blue). Combining this matrix with the list of excess curvature values determined above, enables direct inference of the unknown parameter values by least squares, which is trivially fast for geological applications and guaranteed to yield a result accurate to within machine precision.</p>
+<h1 id="accuracy-benchmark-for-local-regular-solution">Accuracy benchmark for local regular solution</h1>
+<ul>
+<li>Compositional perturbation test for local regular solution vs simple linear model of chemical potential variation</li>
+</ul>
+<h1 id="accuracy">Accuracy</h1>
+</body>
+</html>

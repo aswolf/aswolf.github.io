@@ -15,4 +15,4 @@ markdown: kramdown
 pygments: true
 highlighter: rouge
 permalink:  /:categories/:title.html
-plugins: ['jekyll/scholar']
+# plugins: ['jekyll/scholar']
