@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Foundational composition-perturbation models for realistic solution phases
+title: Basic composition-perturbation models for solution phases
 active: lab-book
 author: Aaron S. Wolf
 date: 2020-12-04
@@ -8,6 +8,8 @@ prev:
   post: 2020-11-19-MEXQAL-rapid-geo-benchmark
   title: Least-squares-optimized MEXQAL calculations for geo-phases
 next:
+  post: 2020-12-11-equilibrium-paper-outlines
+  title: 'Urgently seeking equilibrium: Manuscript outlines for equilibrium algorithms'
 motivation: |
   Rapid and robust determination of equilibrium is critical for thermodynamic simulations. Predicting the evolving state of the system hinges entirely on the speed and trustworthiness of the underlying algorithms responsible for finding the equilibrium states of each phase. Given the large abundance and variety of phases relevant to geological and planetary simulations, this demands a general technique that is sure to rapidly converge to the optimal answer, regardless of the details of the particular phase.
   In this post, I focus on describing the foundations of the two simplest local approximations available for solution mixing models. The ideal and linear solution approximations form the foundation of the local regular solution approximation, to be presented in next week's post.
@@ -27,7 +29,7 @@ key-points:
 <!-- # Justify motivation for efficient & robust equilibrium algorithms -->
 <!-- Rapid and robust determination of equilibrium is critical for thermodynamic simulations. Their ability to usefully predict the evolving state of the system hinges entirely on the speed and trustworthiness of the underlying algorithm responsible for finding the equilibrium states of each phase. Given the large abundance and variety of phases relevant to geological and planetary simulations, this demands a general technique that is sure to rapidly converge to the optimal answer, regardless of the details of the particular phase. This challenge is especially difficult for complex phases involving multi-site substitution, cation ordering, and composition-induced structural changes, all of which frustrate the search for equilibrium as they embed wrinkles and complex features in the Gibbs energy surface of the solution phase. This work proposes a generalized solution to this problem, which is guaranteed to converge despite compositional idiosyncrasies common to geological mineral phases (like pyroxenes and spinels). Most of what I prepared for this post had to be removed due to a missing term in my derivation of the regular solution model. This will be fixed and addressed in next week's post. -->
 
-# Computational role of compositional-perturbation models
+## Computational role of compositional-perturbation models
 
 Chemical thermodynamic simulations, especially those involving compositional evolution or model calibration require many repeated calculations of the chemical potentials for each phase, typically dominating simulation computing time.
 Despite generally modest adjustments in composition from one iteration to the next, the computational burden for each of these calculations is fully realized in every function call, dramatically and unnecessarily increasing overall computing times.
@@ -36,7 +38,7 @@ We are thus highly motivated to seek out simple local approximations that can ac
 In this section, we quantify the accuracy of the ideal and linear solution models, which represent the baseline computational models of chemical thermodyanmics.
 We also outline the basic framework for a potentially more accurate model, the local regular solution approximation, discussed in detail in the next section.
 
-# Ideal and Linear Solution Models
+## Ideal and Linear Solution Models
 
 The simplest local approximations for chemical solutions are the physically-motivated ideal solution and the purely mathematical linear solution models.
 Because the ideal solution is based on the assumption of ideal mixing, it completely ignores any chemical interaction energies and thus generally performs rather poorly for most real-world solutions.
@@ -85,7 +87,7 @@ But the lack of logarithmic mixing terms comes to dominate for larger extrapolat
 <!-- # Compositional Extrapolation Benchmark (linear solution)
 - compare local ideal solution and local linear solution -->
 
-# Local regular solution approximation overview
+## Local regular solution approximation overview
 <!-- # [[202011300948]] Local regular solution approximation overview -->
 
 Regular solution models represent the next step in improving accuracy for chemical mixing models, and while they can be quite useful, their simplicity limits their applicability to complex ordered phases.
