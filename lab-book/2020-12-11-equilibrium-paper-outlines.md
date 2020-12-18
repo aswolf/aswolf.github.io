@@ -8,6 +8,8 @@ prev:
   post: 2020-12-04-basic-solution-perturbation-models
   title: Basic composition-perturbation models for solution phases
 next:
+  post: 2020-12-18-equilibrium-paper-draft
+  title: Urgently seeking equilibrium Working Draft (Paper I)
 motivation: For this week, I have developed an article template for use with the markdown-based 'pandoc-scholar' software. It uses a simplified (hassle-free) markdown input file, which is then processed to simultaneously produce many output formats including html, pdf, latex, docx (word), odt, epub. The goal is to produce a manuscript for submission to journals where only minor modifications (if any) need be applied to the final submitted file. When in doubt, let the copy editors take care of it.
 
   With this manuscript preparation in mind, I present an outline for the current equilibrium algorithm focused manuscripts. These outlines combined with previous lab-book posts will form the basis for a first draft using the new pandoc-scholar-template I have developed.

@@ -12,16 +12,18 @@ Providing a public view of scientific research work has numerous advantages:
 * Getting feedback on work in progress
 
 <div class="box" markdown="1">
-## Latest Posting *(12/11/2020)*
-* [**Urgently seeking equilibrium: Manuscript outlines for equilibrium algorithms**](lab-book/2020-12-11-equilibrium-paper-outlines.html)
+## Latest Posting *(12/18/2020)*
 
-## Next Posting *(Due: 12/17/2020)*
-* **TBD**
+* [**Urgently seeking equilibrium Working Draft (Paper I)**](lab-book/2020-12-18-equilibrium-paper-draft.html)
+
+## Next Posting *(Due: 12/31/2020)*
+* **Note week off for XMAS**
 
 <!-- (lab-book/2020-12-03-optimized-geo-phase-affinities.html) -->
 </div>
 
 ## Past Entries
+* [*2020-12-18:* **Urgently seeking equilibrium Working Draft (Paper I)**](lab-book/2020-12-18-equilibrium-paper-draft.html)
 * [*2020-12-11:* **Urgently seeking equilibrium: Manuscript outlines for equilibrium algorithms**](lab-book/2020-12-11-equilibrium-paper-outlines.html)
 * [*2020-12-04:* **Basic composition-perturbation models for solution phases**](lab-book/2020-12-04-basic-solution-perturbation-models.html)
 * [*2020-11-25:* **Imposing subsolidus phase saturation constraints**](lab-book/2020-11-25-subsolidus-saturation-constraints.html)

@@ -15,7 +15,7 @@ a:hover {color:#636a46; text-decoration:none; background-color:inherit;}
 a img {border:none;}
 p {padding:0 0 1.6em 0;}
 p form {margin-top:0; margin-bottom:20px;}
-img.left,img.center,img.right {padding:4px; }
+img.left,img.center,img.right {padding:4px;}
 img.left {float:left; margin:0 12px 5px 0;}
 img.center {display:block; margin:0 auto 5px auto;}
 img.right {float:right; margin:0 0 5px 12px;}
