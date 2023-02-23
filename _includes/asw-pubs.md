@@ -1,4 +1,7 @@
 
+Publications
+============
+
 Citation Metrics (Feb 2023)
 ---------------------------
 
@@ -23,7 +26,7 @@ In Prep {#in_prep}
 
 -   ***Adams***, J., **Wolf**, A. S., Spera, J., Ghiorso, M., Revival of
     the ternary garnet solid-solution model: A new calibration of
-    Ca$_3$Al$_2$Si$_3$O$_{12}$--Mg$_3$Al$_2$Si$_3$O$_{12}$--Fe$_3$Al$_2$Si$_3$O$_{12}$
+    $Ca_3Al_2Si_3O_{12}$--$Mg_3Al_2Si_3O_{12}$--$Fe_3Al_2Si_3O_{12}$
     garnets. *Geochimica et Cosmochimica Acta*
 
 In Review {#in_review}
@@ -62,7 +65,7 @@ Published
     Relations*. (<https://doi.org/10.1111/bjir.12571>)
 
 3.  ***Hurt***, S., **Wolf**, A. S. (2020), Anomalous structure of
-    MgCO$_3$ liquid and the buoyancy of carbonatite melts. *Earth and
+    $MgCO_3$ liquid and the buoyancy of carbonatite melts. *Earth and
     Planetary Science Letters*.
     (https://doi.org/10.1016/j.epsl.2019.115927)
 
@@ -92,13 +95,13 @@ Published
     (<https://doi.org/10.1016/j.gca.2018.11.017>)
 
 8.  ***Hurt***, S., **Wolf**, A. S. (2018), Thermodynamic properties of
-    CaCO$_3$-SrCO$_3$-BaCO$_3$ liquids: a molecular dynamics study using
+    $CaCO_3$-$SrCO_3$-$BaCO_3$ liquids: a molecular dynamics study using
     new empirical atomic potentials for alkaline earth carbonates.
     *Physics and Chemistry of Minerals*, 1--16.
     (<https://doi.org/10.1007/s00269-018-0995-5>)
 
 9.  **Wolf**, A. S., Bower, D. J. (2018), An equation of state for high
-    pressure-temperature liquids (RTpress) with application to MgSiO$_3$
+    pressure-temperature liquids (RTpress) with application to $MgSiO_3$
     melt. *Physics of the Earth and Planetary Interiors*, 278: 59--74.
     (<https://doi.org/10.1016/j.pepi.2018.02.004>)
 
@@ -167,8 +170,8 @@ Published
     *Publications of the Astronomical Society of the Pacific*,
     121:1016--1027. (<https://doi.org/10.1086/605730>)
 
-21. Ragozzine, D., **Wolf**, A. S. (2009) **\[authors contributed
-    equally\]**, Probing the Interiors of very Hot Jupiters Using
+21. Ragozzine, D., **Wolf**, A. S. (2009) \[**authors contributed
+    equally**\], Probing the Interiors of very Hot Jupiters Using
     Transit Light Curves. *The Astrophysical Journal*, 698:1778.
     (<https://doi.org/10.1088/0004-637X/698/2/1778>)
 

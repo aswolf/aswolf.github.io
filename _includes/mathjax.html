@@ -2,9 +2,11 @@
 
 <!-- MathJax -->
 
-<script type="text/javascript"
+<!-- version 2 -->
+<!-- <script type="text/javascript"
 src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
+
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -18,4 +20,36 @@ MathJax.Hub.Config({
          extensions: ["AMSmath.js", "AMSsymbols.js", "newcommand.js"] }
   }
 });
+</script> -->
+
+
+
+
+<!-- version 3 -->
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script> 
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script> -->
+
+
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true,
+      processEnvironments: true,
+    },
+    options: {
+      skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    },
+  };
 </script>
+
+
+
+<!-- packages: {'[+]': ['mhchem']},
+
+loader: {load: ['[tex]/mhchem']}, -->
