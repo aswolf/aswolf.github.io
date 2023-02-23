@@ -5,7 +5,8 @@ active: research
 ---
 
 My research interests span a broad range of topics including planetary science, geochemistry, geophysics, and statistical analysis.
-In particular, the bulk of my work is focused on understanding the chemistry and thermodynamics of the Earth’s lower mantle.
+In particular, the bulk of my work is focused on understanding the role that silicate melts play in planetary formation and evolution.
+<!-- chemistry and thermodynamics of pla. -->
 I approach this topic with a variety of techniques, including diamond anvil cell experiments, thermodynamic modeling of first principles calculations, and simplified atomic-scale modeling.
 I have also done work on determining the interior properties of extrasolar planets through their orbital evolution, as well as various applications of Bayesian statistical techniques toward understanding various fields in the geosciences.
 Below I describe a number of these research projects in more detail, and you can see a list of my publications [here](publications.html).

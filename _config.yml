@@ -12,7 +12,8 @@ github_username:  aswolf
 # Build settings
 # NOTE MUST BE KRAMDOWN for markdown blocks within html
 markdown: kramdown
-pygments: true
-highlighter: rouge
+# pygments: true
+# highlighter: rouge
+highlighter: pygments
 permalink:  /:categories/:title.html
 # plugins: ['jekyll/scholar']
