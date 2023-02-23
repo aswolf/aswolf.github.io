@@ -11,7 +11,7 @@ active: home
 
 <div class="splitright">
 <div class="box">
-I am a Assistant Research Scientist in the Earth and Environmental Sciences Department at the University of Michigan.
+I am a Associate Research Scientist in the Earth and Environmental Sciences Department at the University of Michigan.
 My research interests are broad, but focus mainly on understanding the thermodynamics and evolution of the Earth's mantle, now and early in Earth's history.
 </div>
 </div>
