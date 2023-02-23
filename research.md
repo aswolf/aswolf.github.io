@@ -4,10 +4,11 @@ title: Research
 active: research
 ---
 
+
 My research interests span a broad range of topics including planetary science, geochemistry, geophysics, and statistical analysis.
-In particular, the bulk of my work is focused on understanding the role that silicate melts play in planetary formation and evolution.
-<!-- chemistry and thermodynamics of pla. -->
-I approach this topic with a variety of techniques, including diamond anvil cell experiments, thermodynamic modeling of first principles calculations, and simplified atomic-scale modeling.
+In particular, **the bulk of my work is focused on understanding how silicate melts drive rocky planet formation and evolution**.
+This includes their role in both the formation of planetary interiors--through core-formation and magma ocean evolution--as well as the compositional evolution of planetary surfaces--through volcanism and outgassing.
+I approach this topic using a variety of computational techniques, including thermodynamic model building, thermo- and geo-dynamic simulation, atomistic simulation, and statistical analysis.
 I have also done work on determining the interior properties of extrasolar planets through their orbital evolution, as well as various applications of Bayesian statistical techniques toward understanding various fields in the geosciences.
 Below I describe a number of these research projects in more detail, and you can see a list of my publications [here](publications.html).
 
@@ -27,7 +28,7 @@ In support of the goals of Open Science, to make research more accessible and re
 
 
 ## Silicate Liquids at High Pressure and Magma Ocean Evolution
-<div class="floatright">
+<div class="floatleft">
 <img src="images/magma-ocean-crystallization-cartoon.png" width="300">
 </div>
 <div class="textfull" markdown="1">
@@ -45,7 +46,7 @@ I have also co-developed a numerical modeling code called SPIDER: “Simulating 
 
 
 ## Simplified Modeling of Silicate Liquids at Mantle Conditions
-<div class="floatleft">
+<div class="floatright">
 <img src="images/cartoonCNEvo.png" width="300">
 </div>
 <div class="textfull" markdown="1">
@@ -58,7 +59,7 @@ The original publication demonstrated this new technique on a simplified chemist
 
 
 ## Structure and Thermodynamics of Carbonate-rich Melts
-<div class="floatright">
+<div class="floatleft">
 <img src="images/Carbonate-Liquid-structure.png" width="300">
 </div>
 <div class="textfull" markdown="1">
@@ -73,7 +74,7 @@ Ongoing work reveals strongly divergent thermophysical properties for Mg-bearing
 
 
 ## Accurate Geologic Thermodynamic Databases & extending to Extrasolar Planets
-<div class="floatleft">
+<div class="floatright">
 <img src="images/Mg_Al_MELTS_Hypatia_compare.png" width="300">
 </div>
 <div class="textfull" markdown="1">
@@ -114,27 +115,11 @@ These publications are some of the most fun because they represent tricky statis
 (*For more information on these projects, see my [publications](publications.html)*)
 
 
-## High P-T Diamond Anvil Cell Experiments
-<div class="floatright">
-<img src="images/dac_diamonds.jpg" width="300">
-<div class="caption"> (image from Steve Jacobsen) </div>
-</div>
-<div class="textfull" markdown="1">
-Iron-bearing magnesium silicate perovskite (recently named Bridgmanite) is thought to be the dominant mineral in the Earth's lower mantle, occupying ~80% by volume.
-This makes it one of the most crucial phases to understanding the structure and long-term evolution of the Earth.
-Wolf et al. (2015), characterizes the composition-dependent compression behavior of perovskite at realistic mantle conditions using laser-heated diamond anvil cell experiments.
-Synchrotron X-ray diffraction experiments were carried out at the Advanced Photon Source, measuring the high temperature compression curves for (Mg,Fe)SiO<sub>3</sub> perovskite in a quasi-hydrostatic neon pressure medium for a range of iron compositions.
-The resulting powder diffraction profiles are then fit to obtain perovskite volumes as a function of pressure and temperature.
-From the extracted volumes, I construct high temperature equations of state for both Fe-bearing and Fe-free compositions, comparing with careful reanalysis of literature data.
-Using Bayesian statistical techniques that are robust to outliers in the dataset, we are able to show that the thermal expansion trends with temperature for perovskite (even in the absence of iron) are considerably higher than previously thought.
-</div>
-<div class="clear"></div>
-
 
 
 
 ## Developing Open Source Scientific Tools
-<div class="floatleft">
+<div class="floatright">
 <img src="images/Open_Science_Logo.jpg" width="150">
 <div class="caption"> (from wikipedia) </div>
 </div>
