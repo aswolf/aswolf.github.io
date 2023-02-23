@@ -4,4 +4,5 @@ title: Publications
 active: pubs
 ---
 
-## [Click here to download my publication list](docs/asw-pubs.pdf)
+{% include_relative _includes/asw-pubs.md %}
+
