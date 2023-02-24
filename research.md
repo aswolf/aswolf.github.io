@@ -118,19 +118,23 @@ Ongoing work reveals strongly divergent thermophysical properties for Mg-bearing
 
 
 ## Bayesian Data Analysis Applications in Geosciences
+<div class="floatright">
+<img src="images/bayesian-melting.png" width="300">
+</div>
+<div class="textfull" markdown="1">
 Many scientific investigations require only a basic knowledge of statistics in order to obtain reasonable results.
 Unfortunately, all too often researchers will apply a simple statistical method when the data really requires more sophisticated techniques.
 Starting early on in graduate school, I began to collaborate with friends and colleagues to help provide the statistical know-how to carry out their investigations when the observation type, data quality, or system complexity ruled out standard simple approaches.
 This has lead me to collaborations in a wide range of areas:
 
-<div class="floatright">
+<!-- <div class="floatright">
 <div markdown="1" align="center">
 #### Bayes' Theorem
 </div>
 <img src="images/bayesHeader.jpg" width="180">
 <div class="caption"> (from wikipedia) </div>
 </div>
-<div class="textfull" markdown="1">
+<div class="textfull" markdown="1"> -->
 * measuring lake depths on Titan
 * inferring the chemical composition of extrasolar planetary atmospheres
 * disentangling the effects of temperature, drought, and fire on the carbon cycle
