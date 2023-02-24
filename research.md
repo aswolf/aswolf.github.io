@@ -4,6 +4,7 @@ title: Research
 active: research
 ---
 
+## Understanding Melt-driven Evolution of Rocky Planets...
 
 My research interests span a broad range of topics including planetary science, geochemistry, geophysics, and statistical analysis.
 In particular, **the bulk of my work is focused on understanding how silicate melts drive rocky planet formation and evolution**.
@@ -27,7 +28,10 @@ In support of the goals of Open Science, to make research more accessible and re
 </div>
 
 
-## Silicate Liquids at High Pressure and Magma Ocean Evolution
+
+
+
+## Magma Oceans & Core Formation
 <div class="floatleft">
 <img src="images/magma-ocean-crystallization-cartoon.png" width="300">
 </div>
@@ -45,7 +49,42 @@ I have also co-developed a numerical modeling code called SPIDER: “Simulating 
 
 
 
-## Simplified Modeling of Silicate Liquids at Mantle Conditions
+## Mantle Melting & Crustal Evolution
+<div class="floatright">
+<img src="images/mantle-melting-cartoon.png" width="300">
+<div class="caption"> (from livescience.com) </div>
+</div>
+<div class="textfull" markdown="1">
+Determining the evolution of the Earth's mantle since formation is a crucial topic to understanding its present state.
+This is particularly true given that temperature and composition are often highly degenerate in seismic observations of the mantle.
+It has long been thought that the Earth likely went through one or more periods in which the mantle was predominantly or entirely molten.
+This magma ocean scenario is a simple consequence of the extremely large energies involved in terrestrial planet accretion.
+Recent experimental and theoretical work have shown that the properties of high pressure silicates are rather different from what was previously supposed, implying that crystallization of a magma ocean proceeds from the center outward rather than from the bottom up.
+This shift in our understanding is a consequence of the depths of both crystallization and neutral crystal buoyancy.
+To better understand the evolutionary path of a crystallizing magma ocean, I have developed a new liquid equations of state for the dominant component in rocky mantles (MgSiO3) (see Wolf et al. 2018).
+I have also co-developed a numerical modeling code called SPIDER: “Simulating Planetary Interior Dynamics with Extreme Rheology”, published in Bower et al. 2018 and hosted at https://bitbucket.org/djbower/spider.
+</div>
+<div class="clear"> </div>
+
+
+## Volcanic Outgassing & Primitive Atmospheres
+<div class="floatleft">
+<img src="images/volcanism-cartoon.png" width="300">
+</div>
+<div class="textfull" markdown="1">
+Determining the evolution of the Earth's mantle since formation is a crucial topic to understanding its present state.
+This is particularly true given that temperature and composition are often highly degenerate in seismic observations of the mantle.
+It has long been thought that the Earth likely went through one or more periods in which the mantle was predominantly or entirely molten.
+This magma ocean scenario is a simple consequence of the extremely large energies involved in terrestrial planet accretion.
+Recent experimental and theoretical work have shown that the properties of high pressure silicates are rather different from what was previously supposed, implying that crystallization of a magma ocean proceeds from the center outward rather than from the bottom up.
+This shift in our understanding is a consequence of the depths of both crystallization and neutral crystal buoyancy.
+To better understand the evolutionary path of a crystallizing magma ocean, I have developed a new liquid equations of state for the dominant component in rocky mantles (MgSiO3) (see Wolf et al. 2018).
+I have also co-developed a numerical modeling code called SPIDER: “Simulating Planetary Interior Dynamics with Extreme Rheology”, published in Bower et al. 2018 and hosted at https://bitbucket.org/djbower/spider.
+</div>
+<div class="clear"> </div>
+
+
+## Silicate Melting at Extreme Pressures & Exotic Compositions
 <div class="floatright">
 <img src="images/cartoonCNEvo.png" width="300">
 </div>
@@ -54,8 +93,13 @@ The dynamically important properties of high pressure silicate liquids are defin
 It is thus important to develop a simple model of silicate liquids that allows rapid determination of equations of state in a large chemically relevant system.
 I have developed the Coordinated Hard Sphere Mixture (CHaSM), which can rapidly predict the behavior of complex silicate liquids over wide ranges in Temperature, Pressure, and Composition (Wolf et al. 2015).
 The original publication demonstrated this new technique on a simplified chemistry, and the model is currently being extended to cover a wide range of chemistries relevant to rocky planets.
+Ongoing work is supported by a collaborative NSF PI grant to develop general Bayesian thermodynamic modeling tools & techniques, and using them to create a new MELTS model calibration.
+This includes an extension of the high-pressure pMELTS model to explore core-formation and differentiation in exoplanets affected by exotic non-terrestrial chemistries.
 </div>
 <div class="clear"> </div>
+
+
+
 
 
 ## Structure and Thermodynamics of Carbonate-rich Melts
@@ -73,30 +117,13 @@ Ongoing work reveals strongly divergent thermophysical properties for Mg-bearing
 <div class="clear"> </div>
 
 
-## Accurate Geologic Thermodynamic Databases & extending to Extrasolar Planets
-<div class="floatright">
-<img src="images/Mg_Al_MELTS_Hypatia_compare.png" width="300">
-</div>
-<div class="textfull" markdown="1">
-Thermodynamic models provide a theoretical framework for extrapolating experimental databases to understand geologic processes, but their calibration and use is often restricted to high-level experts.
-Limits on data quantity and quality demand simplified models that remain accurate over narrow regions of pressure-temperature-composition space.
-Thermodynamic database modeling is plagued by strong parameter correlations and variable uncertainties that are rarely reported, making it difficult to assess model accuracy.
-This work is supported by a collaborative NSF PI grant to develop general Bayesian thermodynamic modeling tools & techniques, and using them to create a new MELTS model calibration.
-This includes an extension of the high-pressure pMELTS model to explore core-formation and differentiation in exoplanets affected by exotic non-terrestrial chemistries.
-By simplifying calibration, the open source tools I'm developing will open up thermodynamic model building to the wider community, enabling researchers to specially tune models for their own areas of interest.
-
-
-</div>
-<div class="clear"> </div>
-
-
 ## Bayesian Data Analysis Applications in Geosciences
 Many scientific investigations require only a basic knowledge of statistics in order to obtain reasonable results.
 Unfortunately, all too often researchers will apply a simple statistical method when the data really requires more sophisticated techniques.
 Starting early on in graduate school, I began to collaborate with friends and colleagues to help provide the statistical know-how to carry out their investigations when the observation type, data quality, or system complexity ruled out standard simple approaches.
 This has lead me to collaborations in a wide range of areas:
 
-<div class="floatleft">
+<div class="floatright">
 <div markdown="1" align="center">
 #### Bayes' Theorem
 </div>
@@ -114,11 +141,34 @@ This has lead me to collaborations in a wide range of areas:
 These publications are some of the most fun because they represent tricky statistical problems that are spread widely across science.
 (*For more information on these projects, see my [publications](publications.html)*)
 
+<div class="clear"> </div>
 
 
 
 
-## Developing Open Source Scientific Tools
+
+
+<!-- ## Accurate Geologic Thermodynamic Databases & extending to Extrasolar Planets
+<div class="floatright">
+<img src="images/Mg_Al_MELTS_Hypatia_compare.png" width="300">
+</div>
+<div class="textfull" markdown="1">
+Thermodynamic models provide a theoretical framework for extrapolating experimental databases to understand geologic processes, but their calibration and use is often restricted to high-level experts.
+Limits on data quantity and quality demand simplified models that remain accurate over narrow regions of pressure-temperature-composition space.
+Thermodynamic database modeling is plagued by strong parameter correlations and variable uncertainties that are rarely reported, making it difficult to assess model accuracy.
+This work is supported by a collaborative NSF PI grant to develop general Bayesian thermodynamic modeling tools & techniques, and using them to create a new MELTS model calibration.
+This includes an extension of the high-pressure pMELTS model to explore core-formation and differentiation in exoplanets affected by exotic non-terrestrial chemistries.
+By simplifying calibration, the open source tools I'm developing will open up thermodynamic model building to the wider community, enabling researchers to specially tune models for their own areas of interest.
+
+
+</div>
+<div class="clear"> </div> -->
+
+
+
+
+
+<!-- ## Developing Open Source Scientific Tools
 <div class="floatright">
 <img src="images/Open_Science_Logo.jpg" width="150">
 <div class="caption"> (from wikipedia) </div>
@@ -133,4 +183,4 @@ Most of these tools (written in Python and MATLAB) are focused on analyzing expe
 As noted at the top of this page, I am making these tools freely available for public use or re-purposing, distributing them from my repositories on github [github.com/aswolf](http://github.com/aswolf).
 (*Part of this work helps to support an EAR/Geoinformatics grant with Przemek Dera and colleagues)*
 </div>
-<div class="clear"></div>
+<div class="clear"></div> -->
