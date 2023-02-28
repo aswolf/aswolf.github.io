@@ -31,10 +31,9 @@ In support of the goals of Open Science, to make research more accessible and re
 
 
 
-
 ## Magma Oceans & Core Formation
 <div class="floatleft">
-<img src="images/magma-ocean-crystallization-cartoon.png" width="300">
+<img src="images/magma-ocean-crystallization-cartoon-bkg.png" width="300">
 </div>
 <div class="textfull" markdown="1">
 <!-- Determining the evolution of the Earth's mantle since formation is a crucial topic to understanding its present state.
