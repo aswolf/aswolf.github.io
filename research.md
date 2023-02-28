@@ -80,7 +80,7 @@ The molecular abundances of these gas species are determined by the chemical pot
 Through surface outgassing of a magma ocean and/or long-lived planetary volcanism, these gases form the basis of a planet's primordial atmosphere.
 From that point, the atmospheric composition can be modified by photochemistry, atmospheric escape, or the presence of life.
 Unlike planetary interiors or crusts, atmospheric compositions can even be measured for distant exoplanets using transit spectroscopy, thus providing an invaluable tool for observing compositions of extrasolar planets.
-I have developed a volcanic outgassing model (VapoRock) to predict outgassed atmospheric abundances as a tool for simulating planetary evolution and for interpreting composition measurements of exoplanetary atmospheres like those expected from the Kepler space telescope.
+I have developed a volcanic outgassing model (VapoRock) to predict outgassed atmospheric abundances as a tool for simulating planetary evolution and for interpreting composition measurements of exoplanetary atmospheres like those expected from the JWST mission.
 Our recently accepted paper (publication in the Astrophysical Journal later this year) shows how VapoRock displays dramatic increases in accuracy (by orders of magnitude) over other available modeling tools due to the underlying thermodynamics used to describe the silicate liquid.
 This work is supported by a NASA grant studying the early formation and late-stage vaporization of rocky exoplanets.
 </div>
