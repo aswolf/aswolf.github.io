@@ -11,7 +11,7 @@ active: home
 
 <div class="splitright">
 <div class="box">
-I am a Associate Research Scientist in the Earth and Environmental Sciences Department at the University of Michigan.
+I am a Research Scientist at the SETI Institute in Mountain View, CA.
 My research interests are broad, but focus mainly on understanding how silicate melts drive rocky planet formation and evolution using thermodynamics and statistical modeling.
 </div>
 </div>
